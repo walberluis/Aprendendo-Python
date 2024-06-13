@@ -1,5 +1,6 @@
-# Escreva um programa que exiba na saída padrão os 100 primeiros números naturais (inteiros positivos incluindo o zero).
-i = 0
-while(i <101):
-    print(i)
-    i += 1
+i = int(input())
+
+for n in range(1, 11, 1):
+    #print(i)
+    aux = i * n
+    print(aux)
